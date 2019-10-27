@@ -8,7 +8,7 @@ PyTorch implementation for our paper [**Self-Routing Capsule Networks**] in Neur
 
 ## Citation
 ```
-@inproceedings{park2019,
+@inproceedings{hahn2019,
   title={Self-Routing Capsule Networks},
   author={Hahn, Taeyoung and Pyeon, Myeongjang and Kim, Gunhee},
   booktitle={NeurIPS},
