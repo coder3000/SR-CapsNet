@@ -6,7 +6,7 @@ PyTorch implementation for our paper [**Self-Routing Capsule Networks**] in Neur
 [[poster]](https://github.com/coder3000/SR-CapsNet/blob/master/misc/neurips2019-self_routing-poster.pdf)
 
 ## Prerequisites
-- python >= 3.5.2
+- Python >= 3.5.2
 - CUDA >= 9.0 supported GPU
 
 Install required packages by:
