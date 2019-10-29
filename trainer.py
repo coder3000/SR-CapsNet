@@ -17,8 +17,6 @@ from data_loader import DATASET_CONFIGS
 
 from attack import Attack, extract_adv_images
 
-from matplotlib import pyplot as plt
-
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
