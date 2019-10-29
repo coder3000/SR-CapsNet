@@ -28,17 +28,17 @@ See `config.py` for more options and their descriptions.
 To test a model, simply run:
 
 ```
-python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --epochs=350 --is_train=False
+python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --is_train=False
 ```
 
 You can perform adversarial attacks against a trained model by:
 ```
-python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --epochs=350 --is_train=False --attack=True --attack_type=bim --attack_eps=0.1 --targeted=False
+python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --is_train=False --attack=True --attack_type=bim --attack_eps=0.1 --targeted=False
 ```
 
 For SmallNorb, you can test against novel viewpoints by:
 ```
-python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --epochs=350 --is_train=False --familiar=False
+python3 main.py --dataset=smallnorb --name=convnet_[routing_method] --is_train=False --familiar=False
 ```
 
 
