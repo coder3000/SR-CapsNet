@@ -22,7 +22,7 @@ python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --epochs=350
 python3 main.py --dataset=svhn --name=resnet_[routing_method] --epochs=200
 ```
 
-`--routing_method` should be one of `[avg, max, fc, dynamic_routing, em_routing, self_routing]`. This will modify last layers of base model accordingly.
+`routing_method` should be one of `[avg, max, fc, dynamic_routing, em_routing, self_routing]`. This will modify last layers of base model accordingly.
 
 
 For SmallNORB, run:
