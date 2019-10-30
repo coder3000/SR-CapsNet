@@ -16,9 +16,10 @@ pip3 install -r requirements.txt
 
 
 ## Training
-To train a model for CIFAR-10, run:
+To train a model for CIFAR-10 or SVHN, run:
 ```
 python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --epochs=350
+python3 main.py --dataset=svhn --name=resnet_[routing_method] --epochs=200
 ```
 
 `--routing_method` should be one of `[avg, max, fc, dynamic_routing, em_routing, self_routing]`. This will modify last layers of base model accordingly.
@@ -39,11 +40,13 @@ To test a model, simply run:
 
 ```
 python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --is_train=False
+python3 main.py --dataset=svhn --name=resnet_[routing_method] --is_train=False
 ```
 
 You can perform adversarial attacks against a trained model by:
 ```
 python3 main.py --dataset=cifar10 --name=resnet_[routing_method] --is_train=False --attack=True --attack_type=bim --attack_eps=0.1 --targeted=False
+python3 main.py --dataset=svhn --name=resnet_[routing_method] --is_train=False --attack=True --attack_type=bim --attack_eps=0.1 --targeted=False
 ```
 
 For SmallNORB, you can test against novel viewpoints by:
