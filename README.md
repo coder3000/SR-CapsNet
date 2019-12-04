@@ -1,6 +1,6 @@
 # SR-CapsNet
 <!-- add paper link -->
-PyTorch implementation for our paper [**Variational Laplace Autoencoders**](https://papers.nips.cc/paper/8982-self-routing-capsule-networks) in NeurIPS 2019.
+PyTorch implementation for our paper [**Self-Routing Capsule Networks**](https://papers.nips.cc/paper/8982-self-routing-capsule-networks) in NeurIPS 2019.
 
 
 [[poster]](https://github.com/coder3000/SR-CapsNet/blob/master/misc/neurips2019-self_routing-poster.pdf)
