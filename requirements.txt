@@ -1,6 +1,7 @@
-torch==1.2.0
+torch==2.10.0
 torchvision==0.4.0
 tensorboardx==1.8
 scipy
 numpy
 tqdm
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
